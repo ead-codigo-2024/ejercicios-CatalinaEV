@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(43, 226, 116);
+    font-family:"Arvo",sans-serif;
+    text-align:center;
+    padding:30px;
+}
+a{
+    color: brown;
+}
+h1{
+    color: rgb(132, 0, 255);
+}
+h1,
+h2.mail-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
