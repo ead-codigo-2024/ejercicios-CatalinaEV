@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+}
+body{
+    font-family:"Ubuntu",sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.main{
+    color: #232323;
+    background-color: #EEFF41;
+    width: 80%;
+    max-height: 80%;
+    padding: 0 ;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    align-items: center;
+}
+div{
+    padding: 5em;
+}
+h1{
+    font-size: 1em;
+    font-weight: 700;
+}
+h2{
+    font-family: "Arvo" , sans-serif;
+    font-size: 3.75em;
+    font-weight: 700;
+    margin: 0;
+}
+img.rounded-corners {
+    border-radius: 50%;
+    padding: 0 1em 0 1em;
+}
+div.image-display {
+    text-align: center;
+    padding: 0 1em 0 1em;
+}
+p{
+    font-size: 1em;
+    font-weight: 400;
+}
+p.text{
+    font-size: 1em;
+    font-weight: 500;
+}
