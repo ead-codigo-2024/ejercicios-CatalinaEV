@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(130deg,  rgb(244, 146, 244),blue);
+    background: linear-gradient(150deg,  rgb(244, 146, 244),blue);
 }
 .container{
     max-width: 700px;
@@ -68,7 +68,7 @@ form .button input{
     height: 100%;
     outline: none;
     cursor: pointer;
-    background: linear-gradient(130deg, blue, rgb(244, 146, 244));
+    background: linear-gradient(150deg, blue, rgb(244, 146, 244));
     color: white;
     font-size: 16px;
     font-weight: 500;

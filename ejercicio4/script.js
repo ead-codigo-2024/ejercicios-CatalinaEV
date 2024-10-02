@@ -44,43 +44,43 @@ const validateInputs = () => {
     const password2Value = password2.value.trim();
 
     if(nombreValue === '') {
-        setError(nombre, 'Por favor colocar Nombre');
+        setError(nombre, 'Por favor colocar Nombre.');
     } else {
         setSuccess(nombre);
     }
 
     if(usernameValue === '') {
-        setError(username, 'Por favor colocar Usuario');
+        setError(username, 'Por favor colocar Usuario.');
     } else {
         setSuccess(username);
     }
 
     if(emailValue === '') {
-        setError(email, 'Por favor colocar email');
+        setError(email, 'Por favor colocar email.');
     } else if (!isValidEmail(emailValue)) {
-        setError(email, 'Por favor colocar correo valido');
+        setError(email, 'Por favor colocar correo valido.');
     } else {
         setSuccess(email);
     }
 
     if(dateValue === '') {
-        setError(date, 'Por favor colocar Fecha de nacimiento');
+        setError(date, 'Por favor colocar Fecha de nacimiento.');
     } else {
         setSuccess(date);
     }
 
     if(passwordValue === '') {
-        setError(password, 'Password is required');
+        setError(password, 'Por favor colocar Contraseña.');
     } else if (passwordValue.length < 8 ) {
-        setError(password, 'Password must be at least 8 character.')
+        setError(password, 'La contraseña debe tener al menos 8 caracteres.')
     } else {
         setSuccess(password);
     }
 
     if(password2Value === '') {
-        setError(password2, 'Please confirm your password');
+        setError(password2, 'Por favor confirmar Contraseña.');
     } else if (password2Value !== passwordValue) {
-        setError(password2, "Passwords doesn't match");
+        setError(password2, "Las contraseñas no coinciden.");
     } else {
         setSuccess(password2);
     }
